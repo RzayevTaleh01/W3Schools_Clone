@@ -58,3 +58,130 @@ nav ul.nav-buttons a button{
       padding: 8px 12px;
       border-radius: 30px;
 }
+
+/*--footer--*/
+footer{
+    background-color: #282A35;
+    
+}
+.footer{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+ .footer .div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses ul{
+    display: flex;
+    gap: 3%;
+}
+.courses ul li {
+    list-style: none;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+.courses ul li:hover{
+    background-color: #F1F1F1;
+}
+.courses ul li a{
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.forum a,.forum{
+    color: white;
+    text-decoration: none;
+}
+.forum a:hover{
+    color: #4CAF50;
+}
+.icon ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+}
+.icon ul li{
+    list-style: none;
+}
+.icon ul li a {
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10%;
+}
+.icon ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.div3 p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+ .p1,.p2,.p3{
+    color: white;
+}
+.p1:hover,.p2:hover,.p3:hover{
+    color: #4CAF50;
+}
+.div3 .ion-icon{
+    font-size: 50px;
+    color: white;
+}
+.ion-icon:hover{
+    color: #A9AAAE;
+}
+.div3 .button{
+    border: none;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 25px;
+    padding: 15px;
+}
+ .div3 .button:hover{
+     background-color: #059862;
+ }
+ @media  (max-width: 900px) {
+     .div1{
+         flex-direction: column;
+         gap: 20px ;
+     }
+     .courses ul{
+         flex-wrap: wrap;
+         
+     }
+     .courses ul li:first-child,
+     .courses ul li:nth-child(2),
+     .courses ul li:nth-child(3),
+     .courses ul li:nth-child(4)
+     {
+         margin-bottom: 30px;
+     }
+     .courses ul li:last-child{
+         margin-left: 5%;
+         width: 76%;
+         text-align: center;
+     }
+     .div3 .button{
+         width: 90%;
+     }
+ }
+
+
