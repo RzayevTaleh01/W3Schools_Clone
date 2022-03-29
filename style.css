@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'Source Sans Pro',sans-serif;
+}
+body{
+    margin-top: 300px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*--footer--*/
+footer{
+    background-color: #282A35;
+    
+}
+.footer{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+ .footer .div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses ul{
+    display: flex;
+    gap: 3%;
+}
+.courses ul li {
+    list-style: none;
+    background-color: white;
+    border-radius: 5%;
+    padding: 10px;
+}
+.courses ul li:hover{
+    background-color: #F1F1F1;
+}
+.courses ul li a{
+    text-decoration: none;
+    color: black;
+}
+.forum a,.forum{
+    color: white;
+    text-decoration: none;
+}
+.forum a:hover{
+    color: #4CAF50;
+}
+.icon ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+}
+.icon ul li{
+    list-style: none;
+}
+.icon ul li a {
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10%;
+}
+.icon ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.div3 p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+ .p1,.p2,.p3{
+    color: white;
+}
+.p1:hover,.p2:hover,.p3:hover{
+    color: #4CAF50;
+}
+.div3 .ion-icon{
+    font-size: 50px;
+    color: white;
+}
+.ion-icon:hover{
+    color: #A9AAAE;
+}
+.div3 .button{
+    border: none;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 25px;
+    padding: 10px;
+}
+ .div3 .button:hover{
+     background-color: #059862;
+ }
+
+
