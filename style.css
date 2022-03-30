@@ -55,7 +55,6 @@ footer{
 .icon ul {
     display: flex;
     justify-content: flex-end;
-    gap: 2%;
 }
 .icon ul li{
     list-style: none;
@@ -116,7 +115,7 @@ footer{
      }
      .courses ul{
          flex-wrap: wrap;
-         
+         justify-content: center;
      }
      .courses ul li:first-child,
      .courses ul li:nth-child(2),
@@ -126,7 +125,6 @@ footer{
          margin-bottom: 30px;
      }
      .courses ul li:last-child{
-         margin-left: 5%;
          width: 76%;
          text-align: center;
      }
