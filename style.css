@@ -257,26 +257,128 @@ footer {
 .div3 .button:hover {
   background-color: #059862;
 }
-@media (max-width: 900px) {
-  .div1 {
+
+ @media  (max-width: 900px) {
+     .div1{
+         flex-direction: column;
+         gap: 20px ;
+     }
+     .courses ul{
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+     .courses ul li:first-child,
+     .courses ul li:nth-child(2),
+     .courses ul li:nth-child(3),
+     .courses ul li:nth-child(4)
+     {
+         margin-bottom: 30px;
+     }
+     .courses ul li:last-child{
+         width: 76%;
+         text-align: center;
+     }
+     .div3 .button{
+         width: 90%;
+     }
+     .p1,.p2,.p3{
+        color: white;
+    }
+    .p1:hover,.p2:hover,.p3:hover{
+        color: #4CAF50;
+    }
+    .div3 .ion-icon{
+        font-size: 50px;
+        color: white;
+    }
+    .ion-icon:hover{
+        color: #A9AAAE;
+    }
+    .div3 .button{
+        border: none;
+        width: 50%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        background-color: #04AA6D;
+        border-radius: 25px;
+        padding: 15px;
+    }
+     .div3 .button:hover{
+         background-color: #059862;
+     }
+ }
+ /*  Section Css  */
+ .css{
+     background-color: #FFF4A3;
+ }
+ .css .css-0{
+     display: flex;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .css-0 .css-1{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     width: 50%;
+ }
+ .css-1 h1{
+     font-size: 100px;
+     font-weight: 700;
+ }
+ .css-1 p{
+     font-size: 19px;
+ }
+ .button1 button{
+    color: white;
+    font-size: 16px;
+     background-color: #04AA6D;
+     border-radius: 25px;
+     width: 200px;
+     height: 40px;
+    border: none;
+ }
+ .button2 button{
+    color: white;
+    font-size: 16px;
+    background-color: #282A35;
+     border-radius: 25px;
+     width: 200px;
+     height: 40px;
+     border: none;
+
+ }
+ .css-0 .css-2{
+     background-color: #E7E9EB;
+     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+     width: 40%;
+ }
+ .css-2-1{
+    display: flex;
     flex-direction: column;
-    gap: 20px;
-  }
-  .courses ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .courses ul li:first-child,
-  .courses ul li:nth-child(2),
-  .courses ul li:nth-child(3),
-  .courses ul li:nth-child(4) {
-    margin-bottom: 30px;
-  }
-  .courses ul li:last-child {
-    width: 76%;
-    text-align: center;
-  }
-  .div3 .button {
-    width: 90%;
-  }
+    gap: 40px;
+ }
+.css-2-1 button{
+    color: white;
+    font-size: 16px;
+    background-color: #04AA6D;
+     border-radius: 25px;
+     width: 200px;
+     height: 40px;
+     border: none;
 }
+.css-2-1 {
+    padding: 30px 15px;
+}
+.css-2-2{
+    background-color: white;
+}
+
+
+
