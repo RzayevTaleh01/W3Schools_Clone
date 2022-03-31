@@ -48,15 +48,22 @@ nav ul{
 nav ul a{
       color: black;
 }
-
+nav ul li a svg{
+    width: 50%;
+    background-color: #059862;
+}
 nav .nav-2{
       display: flex;
       align-items: center;
       gap: 20px;
 }
 nav ul.nav-buttons a button{
-      padding: 8px 12px;
+    width: 140px;
+      padding: 12px 14px;
       border-radius: 30px;
+}
+nav ul.nav-buttons li:first-child a button{
+    background-color: #FFC0C7;
 }
 
 /*--footer--*/
