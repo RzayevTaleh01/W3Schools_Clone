@@ -509,7 +509,39 @@ header h4 a:hover{
 .color-picker-0 img:hover{
   opacity: 0.50;
 }
+/* Code Game Section*/
 
+.code-game{
+  padding-top: 85px;
+  padding-bottom: 85px;
+  background-color: #96D4D4;
+}
+.code-game-0{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.code-game-0 h1{
+  font-family: 'Freckle Face', cursive;
+  font-size: 48px;
+}
+.code-game-0 h2{
+  font-family: 'Freckle Face', cursive;
+}
+.code-game-0  button{
+  background-color: #282A35;
+  padding: 11px 60px;
+  border-radius: 28px;
+  color: white;
+  font-size: 18px;
+}
+.code-game-0 img:hover{
+  opacity: 0.5;
+}
+.code-game-0 button:hover{
+  background-color: #000000;
+}
   
 /*Footer*/
 footer {
