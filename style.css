@@ -223,13 +223,13 @@ header h4 a:hover{
   font-family: 'Consolas','Menlo',"courier new",monospace;
   line-height: 1.5;
 } 
-.css-2-2 .span1,.span4{
+.css-2-2 .span1, .css-2-2 .span4{
   color: brown;
 }
-.css-2-2 .span2, .span5, .span7{
+.css-2-2 .span2,.css-2-2 .span5,.css-2-2 .span7{
   color: red;
 }
-.css-2-2 .span3, .span6, .span8{
+.css-2-2 .span3, .css-2-2 .span6,.css-2-2 .span8{
   color: blue;
 }
 /* JS Section*/
@@ -358,6 +358,102 @@ header h4 a:hover{
   .sql2{
     color: brown;
   }
+  /*Code Editor Section*/
+  .code-editor-0 {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color: #282A35;
+  }
+  .code-editor-0 .code-editor-2{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .code-editor-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .code-editor-1 h1{
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 700;
+  }
+  .code-editor-1 h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+  }
+  .code-editor-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 62%;
+  }
+  .dot{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    background-color: #F1F1F1;
+    padding: 10px;
+    color: #666666;
+  }
+  .www{
+    background-color: white;
+    width: 60%;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .button{
+    background-color: #f1f1f1;
+  }
+  .button button{
+    padding: 8px 16px;
+    font-size: 17px;
+  }
+  .button button:hover{
+    background-color: #E7E9EB;
+  }
+   .span span button{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    
+  }
+  .span .span-1 button{
+    background-color: #ED594A;
+  }
+  .span .span-2 button {
+    background-color: #FDD800;
+  }
+  .span .span-3 button{
+    background-color: #5AC05A;
+  }
+  .code-editor-2 .button-1 button,.code-editor-2 .button-2 button {
+    background-color: #04AA6D;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+  }
+  .code-editor-2 .button-2 button{
+    background-color: #FFF4A3!important;
+    color: black!important;
+  }
+  .code-editor-2 .button-1 button:hover{
+    background-color: #059862;
+  }
+  .code-editor-2 .button-2 button:hover{
+    background-color: #FFF080 !important;
+  }
+  .code-editor-2-1 img{
+    width: 100%;
+  }
 /*Footer*/
 footer {
   background-color: #282a35;
@@ -432,11 +528,13 @@ footer {
 .p2,
 .p3 {
   color: white;
+  text-decoration: underline;
 }
 .p1:hover,
 .p2:hover,
 .p3:hover {
   color: #4caf50;
+  
 }
 .div3 .ion-icon {
   font-size: 50px;
@@ -496,6 +594,10 @@ footer {
     .js-1 p{
       font-size: 16px;
       text-align: center;
+    }
+    /*Code Editor Section*/
+    .code-editor-2{
+      width: 95%;
     }
   /*Footer*/ 
   .div1{
