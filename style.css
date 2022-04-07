@@ -487,7 +487,28 @@ header h4 a:hover{
   border-radius: 28px;
   
 }
-
+/*color Picker*/
+.color-picker{
+  background-color: #F3ECEA;
+}
+.color-picker-0{
+  padding-top: 85px;
+  padding-bottom: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.color-picker-0 h1{
+  font-size: 65px;
+  font-weight: 700;
+}
+.color-picker-0 p{
+  font-size: 18px;  
+}
+.color-picker-0 img:hover{
+  opacity: 0.50;
+}
 
   
 /*Footer*/
