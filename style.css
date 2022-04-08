@@ -487,6 +487,9 @@ header h4 a:hover{
   border-radius: 28px;
   
 }
+.w3schools-spaces-0 button:hover{
+  background-color: #059862;
+}
 /*color Picker*/
 .color-picker{
   background-color: #F3ECEA;
@@ -542,7 +545,53 @@ header h4 a:hover{
 .code-game-0 button:hover{
   background-color: #000000;
 }
-  
+/*Exercises and quizzes section*/
+.exercises{
+  padding-top: 85px;
+  padding-bottom: 85px;
+  background: #282A35 url(https://www.w3schools.com/about/w3codes.png) no-repeat fixed center;
+  background-size: 100% 100%;
+} 
+.quizzes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.quizzes h1{
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+}
+.quizzes h4{
+  font-size: 20px;
+  color: white;
+} 
+.quizzes-1{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  width: 83%;
+  padding-top: 30px;
+}
+.quizzes-1 a {
+  font-size: 35px;
+  width: 87%;
+  opacity: 0.96;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+}
+.quizzes-1 .exercises{
+  background: #04AA6D;
+  color: white;
+}
+.quizzes-1 .quizzes{
+  background-color:#FFF4A3 ;
+  color: black;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
 /*Footer*/
 footer {
   background-color: #282a35;
